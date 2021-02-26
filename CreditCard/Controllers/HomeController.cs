@@ -8,6 +8,7 @@ namespace CreditCard.Controllers
 {
     public class HomeController : Controller
     {
+        //Test comment
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
