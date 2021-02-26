@@ -1,0 +1,42 @@
+﻿@model CreditCard.Models.CreditCards
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h4>Credit Card Details</h4>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+            Name
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt>
+            Credit Card No
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreditCardNo)
+        </dd>
+        <dt>
+            Credit Card  CVC
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreditCardCVC)
+        </dd>
+
+        <dt>
+            Expiry Date
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ExpiryDate)
+        </dd>
+
+    </dl>
+</div>
